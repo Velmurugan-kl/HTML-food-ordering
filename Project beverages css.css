@@ -1,0 +1,94 @@
+.grid-container {
+    display: grid;
+    grid-template-columns:25% 25% 25% 25%;
+    gap: 10px;
+    padding: 20px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(162, 162, 162, 0.834);
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+  }
+  
+  #item1 {
+    grid-area: 1 / 2 / 2 /4;
+  }
+  body{
+    background:linear-gradient(to top right, black,rgb(19, 117, 152));    
+   
+  }
+  
+  .navigation .pos {
+      position: absolute;
+      top: 0;
+      right:0;
+      left:0;
+      background-color: rgb(71, 69, 69);
+      }
+                
+  .navigation a {
+      float: left;
+      display: block;
+      color: rgb(255, 255, 255);
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration:none;
+      font-size: 17px;
+      }
+                
+  .navigation a:hover {
+      background-color: #e8963ef0;
+      color: white;
+      }
+                
+  .navigation a.home {
+      background-color: #e8963ef0;
+      color: white;
+      }
+                
+  .navigation input{
+      float: right;
+      padding: 6px;
+      margin-top: 8px;
+      margin-right: 16px;
+      border: none;
+      font-size: 17px;
+      }
+      button{
+    
+        position: relative; 
+        width: 150px;
+        padding: 15px 0; 
+        border-radius: 30px;
+        text-align: center;
+        font-weight: bold;
+        margin: 10px 10px;
+        background-color:rgb(249, 170, 60);
+        color: rgb(4, 4, 4);
+        cursor: pointer; 
+        overflow: hidden;
+        text-transform:uppercase;
+    }
+  input{
+      
+      position: relative; 
+          width: 150px;
+          border-radius: 30px;
+          padding: 15px 0; 
+          text-align: center;
+          margin: 10px 10px;
+          background: rgb(255, 255, 255);
+          color: rgb(4, 4, 4);
+          cursor: pointer; 
+          overflow: hidden;
+          text-transform:uppercase;
+      }
+      button:hover {
+        background:linear-gradient(to top right ,rgba(248, 169, 59, 0.884) , white) ;
+        color: rgb(0, 0, 0);
+        }
+  
+  

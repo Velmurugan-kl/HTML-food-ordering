@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="Project beverages css.css">
+	<script src="Beverasges.js"></script>
+</head>
+<body>
+    <div class="navigation" >
+        <div class="pos">
+            <a class="home" href="Index.htm">Home</a>
+            <a href="about.html">About</a>
+            <a href="#contact">Contact</a>
+            <input type="text" placeholder="Search..">
+        </div>
+    </div>
+
+
+<div class="grid-container">
+  <div id="item1">
+    <h2><u>COMBO OFFER</u></h2>
+    <img src = "https://www.pavaniskitchen.com/wp-content/uploads/2021/02/chbiryani.jpg"   alt = "add this immage"   width=150px hight=150px>
+    <h4><strike>₹150 </strike> ₹100</h4>
+    <h3>Biriyani</h3>
+    <input type="number" name="qty" id=qty placeholder="QUANTITY"  >
+    <button onclick="add(document.getElementById('qty').value,1,f)">ADD+</button>
+</div>
+  <div id="item2">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSez95zceqQxUE8qrZLJADlk8N7bh4RhXFO8Q&usqp=CAU" height="150px" width="150px">
+		<h4>₹200</h4>
+		<h4>Fish Fry</h4>
+		<input type="number" name="qty" id=qty1 placeholder="QUANTITY"  >
+    <button onclick="add(document.getElementById('qty1').value,2,f)">ADD+</button>
+  </div>
+  <div id="item3">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRABEuNNbHNyS1y84lrGUIRKRCcbwcYeZqcUA&usqp=CAU" height="150px" width="150px">
+      <h4>₹99</h4>
+      <h4>Pizza</h4>
+      <input type="number" name="qty" id=qty2 placeholder="QUANTITY"  >
+    <button onclick="add(document.getElementById('qty2').value,3,f)">ADD+</button>
+  </div>  
+  <div id="item4">
+		<img src="https://www.thestar.com/content/dam/repos/food/recipe/KitRecipes/Ramen-Noodles-with-Kimchi-and-Pork.jpg" height="130px" width="100px">
+		<h4>₹125</h4>
+		<h4>Noodle</h4>
+		<input type="number" name="qty" id=qty3 placeholder="QUANTITY"  >
+    <button onclick="add(document.getElementById('qty3').value,4,f)">ADD+</button>
+  </div>
+  <div id="item5">
+		<img src="https://feeds.abplive.com/onecms/images/uploaded-images/2021/07/22/8896ba1f366ccdb817f67bc4303eea5c_original.jpeg" height="150px" width="100px">
+		<h4>₹40</h4>
+		<h4>Dosa</h4>
+		<input type="number" name="qty" id=qty4 placeholder="QUANTITY"  >
+    <button onclick="add(document.getElementById('qty4').value,5,f)">ADD+</button>
+  </div>
+  <div id="item6">
+		<img src="https://cityspideynews.s3.amazonaws.com/uploads/spidey/202202/cover---2022-02-23t172733893-1645617459.webp" height="150px" width="150px">
+		<h4>₹69</h4>
+		<h4>Burger</h4>
+		<input type="number" name="qty" id=qty5 placeholder="QUANTITY"  >
+    <button onclick="add(document.getElementById('qty5').value,6,f)">ADD+</button>
+  </div>
+  <div id="item7">
+		<img src="https://www.jocooks.com/wp-content/uploads/2021/12/roti-1.jpg" height="150px" width="150px">
+		<h4>₹80</h4>
+		<h4>Chappathi</h4>
+		<input type="number" name="qty" id=qty6 placeholder="QUANTITY"  >
+    <button onclick="add(document.getElementById('qty6').value,7,f)">ADD+</button>
+  </div>
+  <div id="item8">
+		<img src="https://res.cloudinary.com/swiggy/image/upload/f_auto,q_auto,fl_lossy/iqdyww0bgeeedmujoom4" height="150px" width="150px">
+		<h4>₹60</h4>
+		<h4>Idly</h4>
+		<input type="number" name="qty" id=qty7 placeholder="QUANTITY"  >
+    <button onclick="add(document.getElementById('qty7').value,8,f)">ADD+</button>
+  </div>  
+  <div id="item9">
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFv037II_nOIo09MdCQt97mAPw5-1I86VIGzmd5PDoK5BTt10bp2xr8XQRalc9C0kteDI&usqp=CAU" height="150px" width="150px">
+		<h4>₹49</h4>
+		<h4>Parotta</h4>
+		<input type="number" name="qty" id=qty8 placeholder="QUANTITY"  >
+    <button onclick="add(document.getElementById('qty8').value,9,f)">ADD+</button>
+  </div>
+  <div id="item10">
+		<img src="https://hemamagesh.com/wp-content/uploads/2021/05/chicken65-featured-image.jpg" height="150px" width="150px">
+		<h4>₹40</h4>
+		<h4>Chicken 65</h4>
+		<input type="number" name="qty" id=qty9 placeholder="QUANTITY"  >
+    <button onclick="add(document.getElementById('qty9').value,10,f)">ADD+</button>
+  </div>
+  <div id="item11">
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ43WjNyzQZkG8exqAawT11gbBtvI7rjdPbIw&usqp=CAU" height="150px" width="150px">
+		<h4>₹40</h4>
+		<h4>Poori</h4>
+		<input type="number" name="qty" id=qty10 placeholder="QUANTITY"  >
+    <button onclick="add(document.getElementById('qty10').value,11,f)">ADD+</button>
+  </div>
+  <div id="item12">
+		<img src="https://cookwithsan.com/wp-content/uploads/2021/10/spicy-egg-fried-rice-768x1024.jpeg" height="150px" width="150px">
+		<h4>₹45</h4>
+		<h4>Egg Fried Rice</h4>
+		<input type="number" name="qty" id=qty11 placeholder="QUANTITY"  >
+    <button onclick="add(document.getElementById('qty11').value,12,f)">ADD+</button>
+  </div>
+  <div id="item13">
+		<img src="https://akm-img-a-in.tosshub.com/sites/dailyo/story/embed/202107/main_vanilla-cake_1_070921113212.jpg" height="150px" width="150px">
+		<h4>₹20</h4>
+		<h4>Tea Cake</h4>
+		<input type="number" name="qty" id=qty12 placeholder="QUANTITY"  >
+    <button onclick="add(document.getElementById('qty12').value,13,f)">ADD+</button>
+  </div>
+</div>
+
+</body>
+</html>

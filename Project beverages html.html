@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="Project beverages css.css">
+	<script src="Beverasges.js"></script>
+</head>
+<body>
+    <div class="navigation" >
+        <div class="pos">
+            <a class="home" href="Index.htm">Home</a>
+            <a href="about.html">About</a>
+            <a href="#contact">Contact</a>
+            <input type="text" placeholder="Search..">
+        </div>
+    </div>
+
+
+<div class="grid-container">
+  <div id="item1">
+    <h2><u>COMBO OFFER</u></h2>
+    <img src = "https://cdn3.evostore.io/productimages/vow_premium/l/au00099.jpg"   alt = "add this immage"   width=150px hight=150px>
+    <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/del030121chapter4openeredited-001-1614368530.jpg" height="150px" width="150px">
+    <img src="https://www.allrecipes.com/thmb/P59TgUCXtQbv69dHRlZduE38xs8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/453291-five-ingredient-ice-cream-Alberta-Rose-4x3-1-4c9ec10ac4ab4e828615e81aa608dd6b.jpg" height="150px" width="150px">
+    <h4><strike>₹210  </strike>₹150</h4>
+    <h3>Coca Cola+Dalgona Coffee+Desert</h3>
+    <input type="number" name="qty" id=qty placeholder="QUANTITY"  >
+    <button onclick="add(document.getElementById('qty').value,1,b)">ADD+</button>
+</div>
+  <div id="item2">
+    <img src="https://cdn3.evostore.io/productimages/vow_premium/l/au00099.jpg" height="150px" width="150px">
+		<h4>₹70</h4>
+		<h4>Coca Cola</h4>
+		<input type="number" name="qty" id=qty1 placeholder="QUANTITY"  >
+    <button onclick="add(document.getElementById('qty1').value,2,b)">ADD+</button>
+  </div>
+  <div id="item3">
+      <img src="https://i0.wp.com/bookacan.com/wp-content/uploads/2016/04/bisleri_250ml_mineral_water_bottle.png?fit=300%2C300&ssl=1" height="150px" width="150px">
+      <h4>₹30</h4>
+      <h4>Water</h4>
+      <input type="number" name="qty" id=qty2 placeholder="QUANTITY"  >
+    <button onclick="add(document.getElementById('qty2').value,3,b)">ADD+</button>
+  </div>  
+  <div id="item4">
+		<img src="https://m.media-amazon.com/images/I/81-IgUyS2OL._SL1500_.jpg" height="130px" width="100px">
+		<h4>₹65</h4>
+		<h4>Pepsi</h4>
+		<input type="number" name="qty" id=qty3 placeholder="QUANTITY"  >
+    <button onclick="add(document.getElementById('qty3').value,4,b)">ADD+</button>
+  </div>
+  <div id="item5">
+		<img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/del030121chapter4openeredited-001-1614368530.jpg" height="150px" width="100px">
+		<h4>₹80</h4>
+		<h4>Dalgona Coffee</h4>
+		<input type="number" name="qty" id=qty4 placeholder="QUANTITY"  >
+    <button onclick="add(document.getElementById('qty4').value,5,b)">ADD+</button>
+  </div>
+  <div id="item6">
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmXc-oYIsyb7WkukK-s_xoxp-64mkBVnW-tw&usqp=CAU" height="150px" width="150px">
+		<h4>₹60</h4>
+		<h4>Badam Milk</h4>
+		<input type="number" name="qty" id=qty5 placeholder="QUANTITY"  >
+    <button onclick="add(document.getElementById('qty5').value,6,b)">ADD+</button>
+  </div>
+  <div id="item7">
+		<img src="data:image/jpeg;base64,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" height="150px" width="150px">
+		<h4>₹45</h4>
+		<h4>Watermelon Juice</h4>
+		<input type="number" name="qty" id=qty6 placeholder="QUANTITY"  >
+    <button onclick="add(document.getElementById('qty6').value,7,b)">ADD+</button>
+  </div>
+  <div id="item8">
+		<img src="https://pipingpotcurry.com/wp-content/uploads/2021/05/Lassi-in-a-glass.jpg" height="150px" width="150px">
+		<h4>₹40</h4>
+		<h4>Lassi</h4>
+		<input type="number" name="qty" id=qty7 placeholder="QUANTITY"  >
+    <button onclick="add(document.getElementById('qty7').value,8,b)">ADD+</button>
+  </div>  
+  <div id="item9">
+		<img src="https://www.allrecipes.com/thmb/P59TgUCXtQbv69dHRlZduE38xs8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/453291-five-ingredient-ice-cream-Alberta-Rose-4x3-1-4c9ec10ac4ab4e828615e81aa608dd6b.jpg" height="150px" width="150px">
+		<h4>₹60</h4>
+		<h4>Desert</h4>
+		<input type="number" name="qty" id=qty8 placeholder="QUANTITY"  >
+    <button onclick="add(document.getElementById('qty8').value,9,b)">ADD+</button>
+  </div>
+  <div id="item10">
+		<img src="https://cdnprod.mafretailproxy.com/sys-master-root/h5a/ha8/29211653603358/146949_main.jpg_480Wx480H" height="150px" width="150px">
+		<h4>₹25</h4>
+		<h4>Slice</h4>
+		<input type="number" name="qty" id=qty9 placeholder="QUANTITY"  >
+    <button onclick="add(document.getElementById('qty9').value,10,b)">ADD+</button>
+  </div>
+  <div id="item11">
+		<img src="https://images.drlogy.com/assets/uploads/img/admin/knowledgefeed/6cce39865774241d7e4ec1c558f19446.jpg" height="150px" width="150px">
+		<h4>₹40</h4>
+		<h4>Rose Milk</h4>
+		<input type="number" name="qty" id=qty10 placeholder="QUANTITY"  >
+    <button onclick="add(document.getElementById('qty10').value,11,b)">ADD+</button>
+  </div>
+  <div id="item12">
+		<img src="https://static.toiimg.com/photo/msid-70702395/70702395.jpg" height="150px" width="150px">
+		<h4>₹20</h4>
+		<h4>Tea</h4>
+		<input type="number" name="qty" id=qty11 placeholder="QUANTITY"  >
+    <button onclick="add(document.getElementById('qty11').value,12,b)">ADD+</button>
+  </div>
+  <div id="item13">
+		<img src="https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/newscms/2019_33/2203981/171026-better-coffee-boost-se-329p.jpg" height="150px" width="150px">
+		<h4>₹35</h4>
+		<h4>Coffee</h4>
+		<input type="number" name="qty" id=qty12 placeholder="QUANTITY"  >
+    <button onclick="add(document.getElementById('qty12').value,13,b)">ADD+</button>
+  </div>
+</div>
+
+</body>
+</html>

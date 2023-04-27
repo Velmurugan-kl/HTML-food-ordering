@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="Project beverages css.css">
+	<script src="Beverasges.js"></script>
+</head>
+<body>
+    <div class="navigation" >
+        <div class="pos">
+            <a class="home" href="Index.htm">Home</a>
+            <a href="about.html">About</a>
+            <a href="#contact">Contact</a>
+            <input type="text" placeholder="Search..">
+        </div>
+    </div>
+
+
+<div class="grid-container">
+  <div id="item1">
+    <h2><u>COMBO OFFER</u></h2>
+    <img src = "https://i0.wp.com/spainonafork.com/wp-content/uploads/2019/04/popcornHOR-11.png?fit=750%2C750&ssl=1"   alt = "add this immage"   width=150px hight=150px>
+    <img src="https://static.toiimg.com/photo/92494266.cms" height="150px" width="150px">
+    <img src="https://thefirstyearblog.com/wp-content/uploads/2020/10/chocolate-donuts-Square2.png" height="150px" width="150px">
+    <h4><strike>₹210  </strike>₹150</h4>
+    <h3>Popcorn + Sandwich + Donut</h3>
+    <input type="number" name="qty" id=qty placeholder="QUANTITY"  >
+    <button onclick="add(document.getElementById('qty').value,1,s)">ADD+</button>
+</div>
+  <div id="item2">
+    <img src = "https://i0.wp.com/spainonafork.com/wp-content/uploads/2019/04/popcornHOR-11.png?fit=750%2C750&ssl=1" alt = "add this immage"   width=150px hight=150px>
+    <h4>₹150</h4>
+    <h3>Popcorn</h3>
+	<input type="number" name="qty" id=qty1 placeholder="QUANTITY"  >
+    <button onclick="add(document.getElementById('qty1').value,2,s)">ADD+</button>
+  </div>
+  <div id="item3">
+    <img src="https://static.toiimg.com/photo/92494266.cms" height="150px" width="150px">
+    <h4>₹120</h4>
+    <h3>Sandwich</h3>
+    <input type="number" name="qty" id=qty2 placeholder="QUANTITY"  >
+    <button onclick="add(document.getElementById('qty2').value,3,s)">ADD+</button>
+  </div>  
+  <div id="item4">
+    <img src="https://www.cubesnjuliennes.com/wp-content/uploads/2020/08/Best-Indian-Punjabi-Samosa-Recipe.jpg" height="150px" width="150px">
+    <h4>₹20</h4>
+    <h3>Samosa</h3>
+	<input type="number" name="qty" id=qty3 placeholder="QUANTITY"  >
+    <button onclick="add(document.getElementById('qty3').value,4,s)">ADD+</button>
+  </div>
+  <div id="item5">
+    <img src="https://resize.indiatvnews.com/en/resize/oldbucket/730_-/lifestylelifestyle/IndiaTv94add1_momos-main-pic.jpg" height="150px" width="150px">
+    <h4>₹20</h4>
+    <h3>Momos</h3>
+	<input type="number" name="qty" id=qty4 placeholder="QUANTITY"  >
+    <button onclick="add(document.getElementById('qty4').value,5,s)">ADD+</button>
+  </div>
+  <div id="item6">
+    <img src="https://loveincorporated.blob.core.windows.net/contentimages/gallery/dec824a4-e3cd-41e5-ab3d-2e37b2847389-hotdogtoppings.jpg" height="150px" width="150px">
+    <h4>₹40</h4>
+    <h3>Hot dog</h3>
+	<input type="number" name="qty" id=qty5 placeholder="QUANTITY"  >
+    <button onclick="add(document.getElementById('qty5').value,6,s)">ADD+</button>
+  </div>
+  <div id="item7">
+    <img src="https://www.awesomecuisine.com/wp-content/uploads/2007/11/Pani-Puri.jpg" height="150px" width="150px">
+    <h4>₹35</h4>
+    <h3>Pani poori</h3>
+	<input type="number" name="qty" id=qty6 placeholder="QUANTITY"  >
+    <button onclick="add(document.getElementById('qty6').value,7,s)">ADD+</button>
+  </div>
+  <div id="item8">
+    <img src="https://static.toiimg.com/photo/87034836/87034836.jpg?v=3" height="150px" width="150px">
+    <h4>₹100</h4>
+    <h3>french fries</h3>
+	<input type="number" name="qty" id=qty7 placeholder="QUANTITY"  >
+    <button onclick="add(document.getElementById('qty7').value,8,s)">ADD+</button>
+  </div>  
+  <div id="item9">
+    <img src="https://i0.wp.com/cookforeachother.in/wp-content/uploads/2020/10/chicken-roll-recipee.jpg" height="150px" width="150px">
+    <h4>₹90</h4>
+    <h3>chicken roll</h3>
+	<input type="number" name="qty" id=qty8 placeholder="QUANTITY"  >
+    <button onclick="add(document.getElementById('qty8').value,9,s)">ADD+</button>
+  </div>
+  <div id="item10">
+    <img src="https://thefirstyearblog.com/wp-content/uploads/2020/10/chocolate-donuts-Square2.png" height="150px" width="150px">
+    <h4>₹20</h4>
+    <h3>Donut</h3>
+	<input type="number" name="qty" id=qty9 placeholder="QUANTITY"  >
+    <button onclick="add(document.getElementById('qty9').value,10,s)">ADD+</button>
+  </div>
+  <div id="item11">
+    <img src="https://www.yummyntasty.com/wp-content/u
+    
+    ploads/2015/03/egg-puffs-1024x683.jpg" height="150px" width="150px">
+    <h4>₹30</h4>
+    <h3>Egg puff</h3>
+	<input type="number" name="qty" id=qty10 placeholder="QUANTITY"  >
+    <button onclick="add(document.getElementById('qty10').value,11,s)">ADD+</button>
+  </div>
+  <div id="item12">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Chicken_Nuggets.jpg/640px-Chicken_Nuggets.jpg" height="150px" width="150px">
+    <h4>₹35</h4>
+    <h3>Nuggets</h3>
+	<input type="number" name="qty" id=qty11 placeholder="QUANTITY"  >
+    <button onclick="add(document.getElementById('qty11').value,12,s)">ADD+</button>
+  </div>
+  <div id="item13">
+    <img src="https://akm-img-a-in.tosshub.com/sites/dailyo/story/embed/202107/main_vanilla-cake_1_070921113212.jpg" height="150px" width="150px">
+    <h4>₹20</h4>
+    <h3>Tea cake</h3>
+	<input type="number" name="qty" id=qty12 placeholder="QUANTITY"  >
+    <button onclick="add(document.getElementById('qty12').value,13,s)">ADD+</button>
+  </div>
+</div>
+
+</body>
+</html>

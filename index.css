@@ -1,0 +1,225 @@
+
+/* {box-sizing: border-box;}*/
+.grid-container {
+  margin-top: 60px;
+  margin-left: 20px;
+  display: grid;
+  grid-template-columns:auto auto auto ;
+  gap: 10px;
+  padding: 20px;
+}
+
+.item1{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.item2{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.item3{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.item4{
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  margin-left: 20px;
+}
+body {
+  margin: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  background:linear-gradient(to bottom right, rgb(91, 90, 90),white);
+  
+}
+
+/*border
+.beverages{
+  position:fixed;
+  right:40px;
+  bottom: 50px;
+}
+/*beverage animation*/
+.fade{
+  width: 430px;
+  height: 300px;
+  animation: move 10s infinite;
+}
+@keyframes move {
+  0%   {border-radius: 10px; background-image: url("GettyImages-452533136.0.jpg");
+    background-size: 600px 400px;}
+  33%   {border-radius: 10px; background-image: url("1920x1080-Milkshake-Fruits-Desert-Movemenet-Laptop-Full-HD-.jpg");
+      background-size: 600px 400px;}
+  66%   {border-radius: 10px; background-image: url("89-892560_ice-cream-images-hd.jpg");
+      background-size: 600px 400px;}
+  100%  {border-radius: 10px;background-image: url("l-intro-1644515264.jpg");
+    background-size: 600px 400px;}
+}
+/*food border
+.food{
+  position: fixed;
+  bottom:50px;
+  left:40px;
+}
+/*food animation*/
+.fade1{
+  width: 430px;
+  height: 300px;
+  animation: move1 10s infinite;
+}
+@keyframes move1{
+  0%   {border-radius: 10px;background-image: url("Cheesy_Sweet_Corn_Grilled_Sandwich_Recipe-1.jpg");
+    background-size: 600px 400px;
+    }
+  33%   {border-radius: 10px;background-image: url("images (3).jpg");
+      background-size: 600px 400px;
+    }
+  66%   {border-radius: 10px;background-image: url("19-192982_ultra-hd-food-wallpapers.jpg");
+      background-size: 600px 400px;
+      }
+  100%  {border-radius: 10px;background-image: url("images (2).jpg");
+    background-size: 600px 400px;}
+}
+
+/*snack border
+.snack{
+  /*position: fixed;
+  bottom:50px;
+  left: 515px;
+}
+/*snack animation*/
+.fade2{
+  width: 430px;
+  height: 300px;
+  animation: move2 10s infinite;
+}
+@keyframes move2{
+  0%   {border-radius: 10px;background-image: url("wp3495545.jpg");
+    background-size: 600px 400px;
+    }
+  33%   {border-radius: 10px;background-image: url("images.jpg");
+      background-size: 600px 400px;
+    }
+  66%   {border-radius: 10px;background-image: url("burger.jpeg");
+      background-size: 600px 400px;
+      }
+  100%  {border-radius: 10px;background-image: url("8ed27a73af483c00a4858a7ff2c3d4c7.jpg");
+    background-size: 600px 400px;}
+}
+
+/*combo border*
+.combo{
+  grid-column:1 / span 3 ;
+  /*position: fixed;
+  top:60px;
+  left: 40px;*
+}
+/*combo animation*/
+.fade3{
+  width: 1400px;
+  height: 200px;
+  animation: move3 10s infinite;
+}
+@keyframes move3{
+  0%   {border-radius: 10px;background-image: url("WipeOut27_01_2022_042748.687000.jpg");
+    background-size: 1400px 230px;
+    }
+  50%   {border-radius: 10px;background-image: url("WipeOut58_01_2022_045838.230000.jpg");
+    background-size: 1400px 230px;
+      }
+  100%  {border-radius: 10px;background-image: url("WipeOut48_01_2022_044826.503000.jpg");
+    background-size: 1400px 230px;}
+  }
+.relative1 {
+  position: relative;
+  /*background:linear-gradient(to bottom left, rgb(71, 70, 69),rgb(255, 255, 255));*/
+  border-width: 5px;
+  border-style: none;
+  height:230px;
+  width:1410px;
+  border-radius: 10px;
+  } 
+  
+.absolute1 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  }
+
+  /*navigation*/
+.navigation .position {
+  position: fixed;
+  top: 0;
+  right:0;
+  left:0;
+  background-color: rgb(71, 69, 69);
+}
+
+.navigation a {
+  float: left;
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration:none;
+  font-size: 17px;
+}
+
+.navigation a:hover {
+  background-color: #e8963ef0;
+  color: white;
+}
+
+.navigation a.home {
+  background-color: #e8963ef0;
+  color: white;
+}
+
+.navigation a.order{
+  position: fixed;
+  right:250px;
+}
+
+.navigation input{
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  border: none;
+  font-size: 17px;
+}
+
+/*grleral*/
+.relative {
+  position: relative;
+  /*background:linear-gradient(to bottom right, rgb(71, 70, 69),rgb(255, 255, 255));*/
+  border-width: 5px;
+  border-style: none;
+  height:400px;
+  width:460px;
+  border-radius: 10px;
+} 
+
+.absolute {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.text{
+  position: absolute;
+  right: 10px;
+  top: 320px;
+}
+p{
+  font-family:cursive;
+  font-size: 20px;
+  color: rgb(91, 87, 87);
+}

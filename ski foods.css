@@ -1,0 +1,97 @@
+body {
+    background-image: url("WhatsApp Image 2022-12-01 at 18.54.10.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+     }
+.item {border: 2px solid rgb(219, 215, 215,0.33);
+    border-radius: 25px;
+    width: 25rem;
+    height: 35rem;
+    background-color:rgba(219, 215, 215, 0.33);
+    text-align: center;
+    float: right;
+    left: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+     }
+
+    input {border-radius: 30px;
+       padding: 7px;
+          
+    }
+
+     label {font-family: Lucida Handwriting,cursive;
+       color:darkorange;
+      
+    }
+    button {
+      background: #3498db;
+    border-radius: 20px;
+    padding: 5px;
+
+    }
+    button:hover{
+      background: linear-gradient(to top right,rgb(33, 135, 139),black);
+      color:whitesmoke;
+    }
+
+    .pass{
+      text-align:center;
+      margin: 10px 0;
+    }
+    .pass a{
+      color: white;
+      font-family: 'poppins',sans-serif;
+      text-decoration: none;
+    }
+    .login{
+      color:white;
+      margin: 20px 0;
+      font-family: 'poppins',sans-serif;
+    }
+    .link{
+      display:flex;
+      cursor: pointer;
+      color: white;
+      margin: 20px 0;
+    }
+    .facebook,.instagram{
+      width: 90%;
+      height: 42px;
+      line-height: 45px;
+      margin-top : 10px;
+      margin-left: 5px;
+    }
+    .facebook{
+      margin-left: 0px;
+      background: #426782;
+      border: 0px solid #3e61a8;
+    }
+    .instagram{
+      background: #E1306C;
+      border: 0px solid #df2060;
+    }
+    .link i{
+      font-size: 17px;
+    }
+    .link span{
+      font-size: 16px;
+      margin-left: 8px;
+      letter-spacing: 1px;
+      font-weight: 500;
+      font-family: 'poppins',sans-serif;
+    }
+    .signup{
+      color: white;
+      font-size: 15px;
+      font-family: 'poppins',sans-serif;
+    }
+    .signup a{
+      color: #3498db;
+      text-decoration: none;
+    }
+    .signup a:hover{
+      text-decoration: underline;
+    }
